@@ -1,0 +1,335 @@
+export const PRODUCTS_DB = [
+  // MEN
+  {
+    id: 'm1',
+    brand: 'Walter Signature',
+    name: 'Classic Straight Cut Indigo',
+    category: 'men',
+    fit: 'Straight Cut',
+    price: 3499,
+    availableSizes: [28, 30, 32, 34, 36],
+    primaryImage: 'https://i.ibb.co/RTMx6n8J/Chat-GPT-staright-fit-men-1.png',
+    secondaryImage: null
+  },
+  {
+    id: 'm2',
+    brand: "Levi's",
+    name: '501 Original Fit Jeans',
+    category: 'men',
+    fit: 'Straight Cut',
+    price: 4999,
+    availableSizes: [30, 32, 34, 36],
+    primaryImage: 'https://i.ibb.co/gM78LqjF/Chat-GPT-straight-fit-men-2.png',
+    secondaryImage: null
+  },
+  {
+    id: 'm3',
+    brand: 'Gap',
+    name: 'Relaxed Fit Light Wash',
+    category: 'men',
+    fit: 'Relaxed Fit',
+    price: 2499,
+    availableSizes: [32, 34, 36],
+    primaryImage: 'https://i.ibb.co/7tCdrspv/Chat-GPT-relaxed-fit-men-1.png',
+    secondaryImage: null
+  },
+  {
+    id: 'm4',
+    brand: 'Premium Imported',
+    name: 'Slim Fit Selvedge Denim',
+    category: 'men',
+    fit: 'Slim Fit',
+    price: 8999,
+    availableSizes: [30, 32],
+    primaryImage: 'https://i.ibb.co/tM3sdXCv/Chat-GPT-Slim-Fit-Selvedge-men.png',
+    secondaryImage: null
+  },
+  {
+    id: 'm5',
+    brand: 'Mango',
+    name: 'Tapered Distressed Denim',
+    category: 'men',
+    fit: 'Tapered',
+    price: 3299,
+    availableSizes: [28, 30, 32],
+    primaryImage: 'https://i.ibb.co/XfnMWw1K/Chat-GPT-tapered-distressed-men-1.png',
+    secondaryImage: null
+  },
+  {
+    id: 'm6',
+    brand: 'H&M',
+    name: 'Everyday Bootcut',
+    category: 'men',
+    fit: 'Bootcut',
+    price: 1999,
+    availableSizes: [30, 32, 34],
+    primaryImage: 'https://i.ibb.co/k2tddpdG/Chat-GPT-bootcut-men-1.png',
+    secondaryImage: null
+  },
+  {
+    id: 'm7',
+    brand: 'Walter Signature',
+    name: 'Black Overdye Slim Fit',
+    category: 'men',
+    fit: 'Slim Fit',
+    price: 3799,
+    availableSizes: [28, 30, 32, 34],
+    primaryImage: 'https://i.ibb.co/sv08PKDQ/Chat-GPT-black-overdye-slim-fit-2.pngsssss',
+    secondaryImage: null
+  },
+  {
+    id: 'm8',
+    brand: "Levi's",
+    name: '511 Slim Fit Flex',
+    category: 'men',
+    fit: 'Slim Fit',
+    price: 5299,
+    availableSizes: [32, 34, 36],
+    primaryImage: 'https://i.ibb.co/Wv1BJxxZ/Chat-GPT-slim-fit-flex-men-2.png',
+    secondaryImage: null
+  },
+  {
+    id: 'm9',
+    brand: 'Gap',
+    name: 'Vintage Tapered Cut',
+    category: 'men',
+    fit: 'Tapered',
+    price: 2799,
+    availableSizes: [30, 32, 34],
+    primaryImage: 'https://i.ibb.co/p52LfCL/Chat-GPT-IVintage-Tapered-Cut-men-1.png',
+    secondaryImage: null
+  },
+  {
+    id: 'm10',
+    brand: 'Mango',
+    name: 'Straight Leg Raw Denim',
+    category: 'men',
+    fit: 'Straight Cut',
+    price: 3499,
+    availableSizes: [28, 32, 36],
+    primaryImage: 'https://i.ibb.co/gZ1p9J7S/Chat-GPT-Straight-Leg-Raw-Denim-3.png',
+    secondaryImage: null
+  },
+  {
+    id: 'm11',
+    brand: 'H&M',
+    name: 'Washed Relaxed Jeans',
+    category: 'men',
+    fit: 'Relaxed Fit',
+    price: 1899,
+    availableSizes: [32, 34, 36],
+    primaryImage: 'https://i.ibb.co/0Vs4W1Nq/Chat-GPT-Washed-Relaxed-fit-men-3.png',
+    secondaryImage: null
+  },
+  {
+    id: 'm12',
+    brand: 'Premium Imported',
+    name: 'Japanese Selvedge Straight',
+    category: 'men',
+    fit: 'Straight Cut',
+    price: 11999,
+    availableSizes: [30, 32, 34],
+    primaryImage: 'https://i.ibb.co/vxBtGFzS/Chat-GPT-Japanese-Selvedge-Straight.png',
+    secondaryImage: null
+  },
+  {
+    id: 'm13',
+    brand: 'Walter Signature',
+    name: 'Utility Relaxed Fit',
+    category: 'men',
+    fit: 'Relaxed Fit',
+    price: 3999,
+    availableSizes: [30, 32, 34, 36],
+    primaryImage: 'https://i.ibb.co/fz51rdtQ/Chat-GPT-Utility-Relaxed-Fit-men-1.png',
+    secondaryImage: null
+  },
+  {
+    id: 'm14',
+    brand: "Levi's",
+    name: '505 Regular Fit',
+    category: 'men',
+    fit: 'Straight Cut',
+    price: 4599,
+    availableSizes: [32, 34, 36],
+    primaryImage: 'https://i.ibb.co/RTJkVH8P/Chat-GPT-straight-fit-men-4.png',
+    secondaryImage: null
+  },
+  {
+    id: 'm15',
+    brand: 'Gap',
+    name: 'Lightweight Bootcut',
+    category: 'men',
+    fit: 'Bootcut',
+    price: 2599,
+    availableSizes: [30, 32, 34],
+    primaryImage: 'https://i.ibb.co/jPTjhjS0/Chat-GPT-Bootcut-jeans-men-2.png',
+    secondaryImage: null
+  },
+
+  // WOMEN
+  {
+    id: 'w1',
+    brand: 'Mango',
+    name: 'High-Rise Flared Denim',
+    category: 'women',
+    fit: 'Flared',
+    price: 2999,
+    availableSizes: [24, 26, 28, 30],
+    primaryImage: 'https://i.ibb.co/LD14jrq2/women-flared-jeans-1.png',
+    secondaryImage: null
+  },
+  {
+    id: 'w2',
+    brand: 'Walter Signature',
+    name: 'Vintage Wash Wide-Leg',
+    category: 'women',
+    fit: 'Wide-Leg',
+    price: 3999,
+    availableSizes: [26, 28, 30, 32],
+    primaryImage: 'https://i.ibb.co/DHt8msBG/Vintage-Wash-Wide-leg-women-1.png',
+    secondaryImage: null
+  },
+  {
+    id: 'w3',
+    brand: "Levi's",
+    name: 'Ribcage Straight Ankle',
+    category: 'women',
+    fit: 'High-Rise',
+    price: 5499,
+    availableSizes: [24, 26, 28, 30],
+    primaryImage: 'https://i.ibb.co/pjrWjV1q/Ribcage-Straight-Ankle-women-1.png',
+    secondaryImage: null
+  },
+  {
+    id: 'w4',
+    brand: 'H&M',
+    name: 'Mom Jeans Light Denim',
+    category: 'women',
+    fit: 'Relaxed Fit',
+    price: 2299,
+    availableSizes: [26, 28, 30, 32],
+    primaryImage: 'https://i.ibb.co/hJ5xp4vP/Mom-Jeans-Light-Jeans-women-1.png',
+    secondaryImage: null
+  },
+  {
+    id: 'w5',
+    brand: 'Gap',
+    name: 'Mid-Rise Skinny',
+    category: 'women',
+    fit: 'Mid-Rise',
+    price: 2499,
+    availableSizes: [24, 26, 28, 30, 32],
+    primaryImage: 'https://i.ibb.co/wrrr0FWK/Mid-Rise-Skinny-jeans-women-1.png',
+    secondaryImage: null
+  },
+  {
+    id: 'w6',
+    brand: 'Walter Signature',
+    name: 'Classic Bootcut',
+    category: 'women',
+    fit: 'Bootcut',
+    price: 3499,
+    availableSizes: [28, 30, 32, 34],
+    primaryImage: 'https://i.ibb.co/qYgzYQJ3/Classic-Bootcut-women-1.png',
+    secondaryImage: null
+  },
+  {
+    id: 'w7',
+    brand: 'Premium Imported',
+    name: 'Palazzo Denim Wide-Leg',
+    category: 'women',
+    fit: 'Wide-Leg',
+    price: 7999,
+    availableSizes: [26, 28, 30],
+    primaryImage: 'https://i.ibb.co/9mTGcc45/Palazzo-Denim-Wide-Leg-women-1.png',
+    secondaryImage: null
+  },
+  {
+    id: 'w8',
+    brand: 'Mango',
+    name: 'Cropped Flared Jeans',
+    category: 'women',
+    fit: 'Flared',
+    price: 3199,
+    availableSizes: [24, 26, 28],
+    primaryImage: 'https://i.ibb.co/tpn7GH2J/cropped-flared-jeans-women-2.png',
+    secondaryImage: null
+  },
+  {
+    id: 'w9',
+    brand: "Levi's",
+    name: '711 Skinny Jeans',
+    category: 'women',
+    fit: 'Mid-Rise',
+    price: 4899,
+    availableSizes: [24, 26, 28, 30, 32],
+    primaryImage: 'https://i.ibb.co/YBHM5dx3/Skinny-Jeans-women-2.png',
+    secondaryImage: null
+  },
+  {
+    id: 'w10',
+    brand: 'Gap',
+    name: 'High-Rise Cheeky Straight',
+    category: 'women',
+    fit: 'High-Rise',
+    price: 2899,
+    availableSizes: [26, 28, 30, 32],
+    primaryImage: 'https://i.ibb.co/c9yTVcS/High-Rise-Cheeky-Straight-women-1.png',
+    secondaryImage: null
+  },
+  {
+    id: 'w11',
+    brand: 'Walter Signature',
+    name: 'Ecru Relaxed Fit',
+    category: 'women',
+    fit: 'Relaxed Fit',
+    price: 3699,
+    availableSizes: [26, 28, 30, 32],
+    primaryImage: 'https://i.ibb.co/b5bD1jBh/Ecru-Relaxed-Fit-women-1.png',
+    secondaryImage: null
+  },
+  {
+    id: 'w12',
+    brand: 'H&M',
+    name: 'Dark Wash Bootcut',
+    category: 'women',
+    fit: 'Bootcut',
+    price: 2199,
+    availableSizes: [28, 30, 32, 34],
+    primaryImage: 'https://i.ibb.co/hRBnBHz3/Dark-Wash-Bootcut-jeans-women-1.png',
+    secondaryImage: null
+  },
+  {
+    id: 'w13',
+    brand: 'Mango',
+    name: 'Twill Wide-Leg Trousers',
+    category: 'women',
+    fit: 'Wide-Leg',
+    price: 3499,
+    availableSizes: [24, 26, 28, 30],
+    primaryImage: 'https://i.ibb.co/CK8BTGnk/Twill-Wide-Leg-Trousers-women-1.png',
+    secondaryImage: null
+  },
+  {
+    id: 'w14',
+    brand: "Levi's",
+    name: 'Wedgie Straight',
+    category: 'women',
+    fit: 'High-Rise',
+    price: 5299,
+    availableSizes: [24, 26, 28, 30],
+    primaryImage: 'https://i.ibb.co/mFqVQPFR/Wedgie-Straight-fit-women-1.png',
+    secondaryImage: null
+  },
+  {
+    id: 'w15',
+    brand: 'Walter Signature',
+    name: 'Split-Hem Flared Denim',
+    category: 'women',
+    fit: 'Flared',
+    price: 4199,
+    availableSizes: [26, 28, 30, 32],
+    primaryImage: 'https://i.ibb.co/WvCmjhx1/Split-Hem-Flared-Denim-women-1.png',
+    secondaryImage: null
+  }
+];

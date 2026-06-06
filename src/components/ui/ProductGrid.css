@@ -1,0 +1,27 @@
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+
+.empty-state {
+  text-align: center;
+  padding: 4rem;
+  color: var(--color-muted-slate);
+  background-color: var(--color-white);
+  border-radius: var(--border-radius);
+  border: 1px dashed var(--color-soft-grey);
+}
+
+@media (max-width: 1200px) {
+  .product-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 640px) {
+  .product-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+}

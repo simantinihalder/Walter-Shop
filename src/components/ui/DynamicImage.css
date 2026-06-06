@@ -1,0 +1,61 @@
+.dynamic-image-container {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 3/4;
+  background-color: var(--color-light-grey);
+  overflow: hidden;
+  border-radius: var(--border-radius);
+}
+
+.dynamic-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: opacity var(--transition-speed) ease;
+}
+
+.dynamic-img.hidden {
+  opacity: 0;
+}
+
+.dynamic-img.visible {
+  opacity: 1;
+}
+
+.image-skeleton {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, var(--color-light-grey) 25%, var(--color-soft-grey) 50%, var(--color-light-grey) 75%);
+  background-size: 200% 100%;
+  animation: loading 1.5s infinite;
+}
+
+@keyframes loading {
+  0% {
+    background-position: 200% 0;
+  }
+  100% {
+    background-position: -200% 0;
+  }
+}
+
+.image-fallback {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--color-slate-dark);
+}
+
+.denim-texture-icon {
+  width: 50%;
+  height: 50%;
+  opacity: 0.8;
+}

@@ -1,0 +1,119 @@
+.filter-panel {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.filter-panel-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
+}
+
+.filter-panel-header h2 {
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: var(--color-text-primary);
+}
+
+.clear-filters-btn {
+  font-size: 0.75rem;
+  color: var(--color-muted-slate);
+  text-decoration: underline;
+}
+
+.clear-filters-btn:hover {
+  color: var(--color-denim-indigo);
+}
+
+.filter-section {
+  border-bottom: 1px solid var(--color-light-grey);
+  padding-bottom: 1.5rem;
+}
+
+.filter-section:last-child {
+  border-bottom: none;
+}
+
+.filter-section-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0.5rem 0;
+  font-size: 0.9375rem;
+  font-weight: 600;
+  color: var(--color-text-primary);
+}
+
+.filter-options {
+  margin-top: 1rem;
+}
+
+.list-options {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.list-options .filter-btn {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.875rem;
+  color: var(--color-text-secondary);
+  text-align: left;
+  transition: color var(--transition-speed);
+}
+
+.list-options .filter-btn::before {
+  content: '';
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  border: 1px solid var(--color-soft-grey);
+  border-radius: 2px;
+  transition: all var(--transition-speed);
+}
+
+.list-options .filter-btn.active::before {
+  background-color: var(--color-denim-indigo);
+  border-color: var(--color-denim-indigo);
+}
+
+.list-options .filter-btn.active {
+  color: var(--color-text-primary);
+  font-weight: 500;
+}
+
+.list-options .filter-btn:hover {
+  color: var(--color-denim-indigo);
+}
+
+.grid-options {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0.5rem;
+}
+
+.grid-options .filter-btn {
+  padding: 0.5rem 0;
+  font-size: 0.875rem;
+  text-align: center;
+  border: 1px solid var(--color-soft-grey);
+  border-radius: var(--border-radius);
+  color: var(--color-text-secondary);
+  transition: all var(--transition-speed);
+}
+
+.grid-options .filter-btn:hover {
+  border-color: var(--color-slate-dark);
+  color: var(--color-text-primary);
+}
+
+.grid-options .filter-btn.active {
+  background-color: var(--color-text-primary);
+  border-color: var(--color-text-primary);
+  color: var(--color-white);
+}
